@@ -1,21 +1,20 @@
 {
-  "short_name": "Pro-IPO",
-  "name": "Pro-IPO: Your IPO Companion",
+  "name": "IPO Pro",
+  "short_name": "IPO Pro",
   "icons": [
     {
-      "src": "/icons/icon-192x192.png",
+      "src": "/icon-512x512.png",
+      "sizes": "auto",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "/icons/icon-512x512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "purpose": "maskable"
     }
   ],
-  "start_url": "/",
-  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "background_color": "#000000",
   "display": "standalone",
-  "scope": "/",
-  "theme_color": "#000000"
+  "id": "pro-ipo",
+  "description": "Live IPO GMP Data - IPO GMP PRO",
+  "start_url": "/",
+  "dir": "auto",
+  "categories": ["finance", "news"]
 }

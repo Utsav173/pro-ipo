@@ -1,6 +1,6 @@
 {
-  "short_name": "Pro-IPO",
-  "name": "Pro-IPO: Your IPO Companion",
+  "name": "IPO Pro",
+  "short_name": "IPO Pro",
   "icons": [
     {
       "src": "/icon-192x192.png",
@@ -15,7 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#000000",
+  "theme_color": "#ffffff",
   "background_color": "#000000",
   "display": "standalone"
 }

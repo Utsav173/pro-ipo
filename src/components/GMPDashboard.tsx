@@ -8,11 +8,11 @@ import Loader from '@/components/common/Loader';
 import { decodeHTML, sortData } from '@/lib/utils';
 import { GmpDataItem, SortBy, SortOrder, StatsData } from '@/types';
 
-const MobileTable = dynamic(() => import('@/components/mobile'), {
+const MobileTable = dynamic(() => import('./mobile'), {
   loading: () => <Loader isMobile={true} />,
 });
 
-const DeskTopTable = dynamic(() => import('@/components/desktop'), {
+const DeskTopTable = dynamic(() => import('./desktop'), {
   loading: () => <Loader isMobile={false} />,
 });
 

@@ -82,6 +82,7 @@ export default function GMPDashboard({
         setSortOrder={setSortOrder}
         statsData={statsData}
         fetchData={handleRefresh}
+        handleSort={handleSort}
       />
     );
   }

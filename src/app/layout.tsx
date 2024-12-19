@@ -16,17 +16,17 @@ const geistMono = Geist_Mono({
 const websiteStructuredData = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  url: 'https://ipo-gmo-pro.pages.dev',
+  url: 'https://pro-ipo.vercel.app',
   name: 'IPO GMP Pro',
   description:
     'Get the latest live IPO Grey Market Premium (GMP) data, estimated listing prices, and detailed analysis for upcoming IPOs.',
   publisher: {
     '@type': 'Organization',
     name: 'IPO GMP Pro Team',
-    url: 'https://ipo-gmo-pro.pages.dev',
+    url: 'https://pro-ipo.vercel.app',
     logo: {
       '@type': 'ImageObject',
-      url: `https://ipo-gmo-pro.pages.dev/vite.svg`,
+      url: `https://pro-ipo.vercel.app/vite.svg`,
       width: '300',
       height: '300',
     },
@@ -45,14 +45,14 @@ const listStructuredData = {
         name: 'Live IPO GMP Data',
         description:
           'Live IPO GMP Data with Realtime analysis, estimated listing and historical data',
-        url: 'https://ipo-gmo-pro.pages.dev',
+        url: 'https://pro-ipo.vercel.app',
       },
     },
   ],
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://ipo-gmo-pro.pages.dev'),
+  metadataBase: new URL('https://pro-ipo.vercel.app'),
   title: {
     default: 'Live IPO GMP Data - IPO GMP PRO',
     template: '%s | IPO GMP PRO',
@@ -90,7 +90,7 @@ export const metadata: Metadata = {
     address: false,
   },
   alternates: {
-    canonical: 'https://ipo-gmo-pro.pages.dev',
+    canonical: 'https://pro-ipo.vercel.app',
   },
   robots: {
     index: true,
@@ -105,7 +105,7 @@ export const metadata: Metadata = {
     title: 'Live IPO GMP Data - IPO GMP PRO',
     description:
       'Stay updated with real-time Grey Market Premium (GMP) data, IPO analysis, and essential details for informed trading & investing.',
-    url: 'https://ipo-gmo-pro.pages.dev',
+    url: 'https://pro-ipo.vercel.app',
     siteName: 'IPO GMP PRO',
     images: [
       {
@@ -127,10 +127,10 @@ export const metadata: Metadata = {
     site: '@ipogmppro',
   },
   verification: {
-    google: '7WEWZI28_fbmUQfGV37ois2UF9yKxQX0VMCDZjP6Z7E',
+    google: '4b4H3hr3KG4V1J6eRzWhNZDf84yIPAcR1x32o0EpF8U',
   },
   other: {
-    'google-site-verification': '7WEWZI28_fbmUQfGV37ois2UF9yKxQX0VMCDZjP6Z7E',
+    'google-site-verification': '4b4H3hr3KG4V1J6eRzWhNZDf84yIPAcR1x32o0EpF8U',
   },
 };
 

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import { useMediaQuery } from 'react-responsive';
+import useMediaQuery from '@/lib/useMediaQuery';
 import dynamic from 'next/dynamic';
 import { refreshData } from '@/app/actions';
 import Loader from '@/components/common/Loader';
@@ -34,7 +34,7 @@ export default function GMPDashboard({
   );
   const [searchTerm, setSearchTerm] = useState('');
 
-  const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
+  const isMobile = useMediaQuery('(max-width: 768px)');
 
   const filteredAndSortedData = useMemo(() => {
     return sortData(
@@ -82,7 +82,6 @@ export default function GMPDashboard({
         setSortOrder={setSortOrder}
         statsData={statsData}
         fetchData={handleRefresh}
-        handleSort={handleSort}
       />
     );
   }

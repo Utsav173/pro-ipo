@@ -1,5 +1,5 @@
-import { lazy } from 'react';
 import { motion } from 'framer-motion';
+import dynamic from 'next/dynamic';
 
 import { Card } from '../ui/card';
 import {
@@ -16,7 +16,6 @@ import { formatDate, formatIPOSize, formatPrice, parseDate } from '@/lib/utils';
 import { GmpDataItem, SearchAndControlsProps, StatsData } from '@/types';
 import { Badge } from '../ui/badge';
 import IPOText from '../common/IPOText';
-import dynamic from 'next/dynamic';
 
 const Stats = dynamic(() => import('../common/Stats'));
 const SearchAndControls = dynamic(() => import('../common/SearchAndControls'));

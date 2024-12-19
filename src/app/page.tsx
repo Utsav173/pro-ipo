@@ -42,7 +42,7 @@ export default async function HomePage() {
     const statsData = await getStatsData(data || []);
 
     return (
-        <main className="container mx-auto p-4">
+        <main className="container mx-auto p-4 max-md:p-2">
             <GMPDashboard initialData={data || []} initialStats={statsData} />
         </main>
     );

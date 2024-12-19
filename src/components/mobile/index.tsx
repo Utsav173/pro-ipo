@@ -85,7 +85,7 @@ const MobileTable = ({
                                 <AccordionTrigger
                                     className={`hover:bg-accent rounded-lg p-4 ${item.classname}`}
                                 >
-                                    <div className="flex items-center justify-between w-full pr-4">
+                                    <div className="flex items-center justify-between w-full pr-4 gap-1">
                                         <div className="flex flex-col items-start">
                                             <span
                                                 className="font-medium text-left"
@@ -101,6 +101,7 @@ const MobileTable = ({
                                             variant={
                                                 parseFloat(item.gmp) > 0 ? 'default' : 'secondary'
                                             }
+                                            className='block min-w-17 px-1.5'
                                         >
                                             {formatPrice(item.gmp)}
                                         </Badge>
@@ -117,7 +118,7 @@ const MobileTable = ({
                                                 <div className="text-sm font-medium mb-1">
                                                     Est. Listing
                                                 </div>
-                                                <div>{item.est_listing}</div>
+                                                <div>₹{item.est_listing}</div>
                                             </div>
                                             <div>
                                                 <div className="text-sm font-medium mb-1">

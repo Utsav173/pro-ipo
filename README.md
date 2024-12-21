@@ -2,7 +2,7 @@
 
 A Next.js application to track live Grey Market Premium (GMP) data, estimated listing prices, and provide analysis for upcoming and ongoing IPOs in the Indian stock market.
 
-[![Vercel](https://vercelbadge.vercel.app/api/other/pro-ipo)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FUtsav173%2Fpro-ipo)
+[![Vercel](https://vercelbadge.vercel.app/api/other/pro-ipo)](https://pro-ipo.vercel.app)
 
 ## Overview
 
